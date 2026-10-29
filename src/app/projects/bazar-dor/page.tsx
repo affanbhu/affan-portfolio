@@ -38,10 +38,7 @@ export default function BazarDorProject() {
             <span>TypeScript</span>
             <span>CSS</span>
           </div>
-          <p>
-            Update this list to match the technologies actually
-            used in your deployed project.
-          </p>
+          
         </div>
 
         <div className="detail-panel">
@@ -51,10 +48,7 @@ export default function BazarDorProject() {
             into clear pages and components while keeping the
             interface easy to navigate.
           </p>
-          <p>
-            Replace this example with a specific challenge you
-            personally encountered and how you solved it.
-          </p>
+          
         </div>
 
         
