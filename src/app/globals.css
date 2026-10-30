@@ -688,13 +688,15 @@ button:focus-visible {
   font-size: 14px;
 }
 
+/* Consistent project title on all three pages */
 .project-detail h1 {
   margin: 14px 0 20px;
   font-size: clamp(34px, 5vw, 52px);
   line-height: 1.2;
 }
 
-.detail-lead {
+/* Consistent project introduction */
+.project-detail .detail-lead {
   max-width: 700px;
   margin-bottom: 38px;
   color: var(--muted);
@@ -702,6 +704,7 @@ button:focus-visible {
   line-height: 1.9;
 }
 
+/* Consistent project information panels */
 .detail-panel {
   margin: 24px 0;
   padding: 28px;
@@ -715,6 +718,7 @@ button:focus-visible {
   font-size: 22px;
 }
 
+/* Consistent paragraph and list text */
 .detail-panel p,
 .detail-panel li {
   color: var(--muted);
@@ -887,6 +891,7 @@ button:focus-visible {
   }
 }
 
+/* Project detail pages on mobile */
 @media (max-width: 600px) {
   .project-detail {
     padding: 40px 20px 70px;

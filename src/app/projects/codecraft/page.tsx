@@ -7,19 +7,20 @@ export default function CodeCraftPage() {
     <>
       <Navbar />
 
-      <main className="project-detail flexup-detail">
+     <main className="project-detail">
         <Link className="back-link" href="/#projects">
           ← Back to Projects
         </Link>
 
         <header className="flexup-header">
           <p className="section-label">PROJECT DETAILS</p>
-          <h1>CodeCraft</h1>
-          <p className="detail-lead">
-            A frontend web development project built with React
-            and TypeScript, focused on creating a clean,
-            responsive, and user-friendly web experience.
-          </p>
+<h1>CodeCraft</h1>
+
+<p className="detail-lead">
+  A frontend web development project built with React
+  and TypeScript, focused on creating a clean,
+  responsive, and user-friendly web experience.
+</p>
         </header>
 
         <section className="detail-panel">
